@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#0f1117;
+font-family:Arial,sans-serif;
+color:#ffffff;
+padding:15px;
+line-height:1.7;
+}
+
+.header{
+background:#1a1d24;
+border-radius:18px;
+padding:20px;
+margin-bottom:15px;
+border:1px solid rgba(255,152,0,.15);
+}
+
+.card{
+background:#1a1d24;
+border-radius:18px;
+padding:18px;
+margin-bottom:15px;
+border:1px solid rgba(255,152,0,.15);
+}
+
+h1{
+font-size:28px;
+margin-bottom:8px;
+color:white;
+}
+
+h2{
+color:#ff9800;
+font-size:14px;
+margin-bottom:12px;
+text-transform:uppercase;
+letter-spacing:1px;
+}
+
+p, li{
+color:#d5d5d5;
+font-size:14px;
+margin-bottom:10px;
+}
+
+ul, ol{
+padding-left:18px;
+}
+
+a{
+color:#4da3ff;
+text-decoration:none;
+word-break:break-all;
+}
+
+.footer{
+text-align:center;
+color:#999;
+font-size:12px;
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>Terms of Service</h1>
+<p>Last updated: June 2026</p>
+</div>
+
+<div class="card">
+<h2>Acceptance of Terms</h2>
+<p>
+By using Smart Group Join, you agree to comply with these Terms of Service.
+If you do not agree with these terms, please do not use the application.
+</p>
+</div>
+
+<div class="card">
+<h2>Group and Channel Submission</h2>
+<p>Users may submit groups and channels from supported platforms including:</p>
+<ul>
+<li>WhatsApp Groups</li>
+<li>WhatsApp Channels</li>
+<li>Telegram Groups</li>
+<li>Telegram Channels</li>
+<li>Facebook Groups</li>
+<li>Messenger Groups</li>
+<li>Messenger Channels</li>
+</ul>
+
+<p>When submitting a group or channel:</p>
+<ol>
+<li>The user must provide a valid invite or public link.</li>
+<li>The system automatically detects the platform type.</li>
+<li>Unsupported or invalid links may be rejected automatically.</li>
+<li>After a supported link is accepted, the user may add group/channel name, description, image from gallery, and category.</li>
+<li>Location permission may be requested to help display groups relevant to nearby users.</li>
+</ol>
+</div>
+
+<div class="card">
+<h2>Location-Based Search</h2>
+<p>
+Smart Group Join allows users to discover groups and channels based on city, country, or nearby location.
+</p>
+<p>
+When a user searches for a specific city or area, only groups and channels associated with that location may be displayed.
+</p>
+<p>
+If no groups or channels are available for the searched location, no results may be shown.
+</p>
+</div>
+
+<div class="card">
+<h2>Approval Process</h2>
+<p>
+All submitted groups and channels may be reviewed before becoming publicly visible.
+</p>
+<p>The administrator reserves the right to:</p>
+<ul>
+<li>Approve submissions</li>
+<li>Reject submissions</li>
+<li>Remove submissions</li>
+<li>Edit categories when necessary</li>
+</ul>
+<p>Approval is not guaranteed.</p>
+</div>
+
+<div class="card">
+<h2>Prohibited Content</h2>
+<p>The following content may be removed without notice:</p>
+<ul>
+<li>Spam or misleading content</li>
+<li>Fraudulent activities</li>
+<li>Illegal content</li>
+<li>Harmful or dangerous content</li>
+<li>Copyright violations</li>
+<li>Adult or explicit content</li>
+<li>Hate speech or harassment</li>
+<li>Content that violates platform policies</li>
+</ul>
+<p>
+The administrator may remove any submission that is considered inappropriate, unsafe, harmful, or unsuitable for the community.
+</p>
+</div>
+
+<div class="card">
+<h2>Religious Content</h2>
+<p>
+Religious groups and channels may be submitted.
+</p>
+<p>
+However, the administrator reserves the right to approve, reject, restrict, or remove any religious content if it violates community standards, causes disputes, promotes misinformation, violates platform rules, or is otherwise considered unsuitable for Smart Group Join.
+</p>
+</div>
+
+<div class="card">
+<h2>Referral Program</h2>
+<p>
+The referral system is intended to encourage genuine community participation.
+</p>
+<p>
+Referral rewards are only granted when the referred user successfully completes all required activities defined by the application.
+</p>
+<p>
+Referral rewards may require actions such as opening or joining a required number of groups or channels and submitting a group or channel that is approved by the administrator.
+</p>
+<p>
+Abuse of the referral system, including self-referrals, duplicate accounts, manipulation, reinstall abuse, or fraudulent activity, may result in rewards being cancelled, removed, or blocked.
+</p>
+</div>
+
+<div class="card">
+<h2>Coins, Purchases and Featured Promotions</h2>
+<p>
+Users may earn or purchase coins when such features are available.
+</p>
+<p>
+Coins may be used to feature approved groups or channels.
+</p>
+<ul>
+<li>All coin purchases are final.</li>
+<li>Coin purchases are non-refundable.</li>
+<li>Featured promotions are non-refundable.</li>
+<li>Coins spent on promotions cannot be returned once the promotion has been activated.</li>
+<li>Once a featured promotion starts, no refund, reversal, or compensation will be provided.</li>
+<li>Users should review their selection carefully before confirming any coin purchase or promotion.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Advertising and Advertisements</h2>
+<p>
+Smart Group Join may display advertisements through Google AdMob and other advertising providers.
+</p>
+<p>
+By using the application, users acknowledge and agree that certain actions may require viewing advertisements.
+</p>
+<ul>
+<li>Users may be required to view a rewarded advertisement when submitting a group or channel.</li>
+<li>Users may see an interstitial advertisement when opening, joining, or interacting with certain groups or channels.</li>
+<li>Users may see banner advertisements in various sections of the application.</li>
+</ul>
+<p>
+Advertisements help support the operation, maintenance, development, moderation, and improvement of the platform.
+</p>
+<p>
+Advertisement availability, frequency, placement, and format may change at any time without prior notice.
+</p>
+</div>
+
+<div class="card">
+<h2>User Responsibility</h2>
+<p>Users are solely responsible for:</p>
+<ul>
+<li>Submitted links</li>
+<li>Uploaded images</li>
+<li>Group descriptions</li>
+<li>Group names</li>
+<li>Shared content</li>
+</ul>
+<p>
+The platform does not own, operate, or control submitted third-party groups and channels.
+</p>
+<p>
+Users should carefully review any group or channel before joining.
+</p>
+</div>
+
+<div class="card">
+<h2>Content Moderation Rights</h2>
+<p>
+The administrator reserves the right to review, reject, restrict, edit, or remove any submitted group or channel at any time.
+</p>
+<p>This includes, but is not limited to:</p>
+<ul>
+<li>Religious content</li>
+<li>Political content</li>
+<li>Spam content</li>
+<li>Misleading content</li>
+<li>Harmful content</li>
+<li>Fraudulent content</li>
+<li>Content that violates platform policies</li>
+<li>Content that may cause disputes within the community</li>
+</ul>
+<p>
+Approval, rejection, restriction, or removal decisions are made at the administrator’s discretion to maintain platform quality, safety, and user trust.
+</p>
+</div>
+
+<div class="card">
+<h2>Location-Based Features</h2>
+<p>The application may use approximate location information to:</p>
+<ul>
+<li>Tag group origins</li>
+<li>Improve search results</li>
+<li>Display nearby groups and channels</li>
+</ul>
+<p>
+Location access may be declined, but some location-based features may become limited.
+</p>
+</div>
+
+<div class="card">
+<h2>Limitation of Liability</h2>
+<p>
+The application serves only as a directory and discovery platform.
+</p>
+<p>We are not responsible for:</p>
+<ul>
+<li>Content shared inside groups</li>
+<li>Actions of group owners</li>
+<li>Third-party platform policies</li>
+<li>Losses resulting from joining any group or channel</li>
+<li>Any issue caused by third-party apps, websites, or services</li>
+</ul>
+<p>
+Users join groups at their own discretion and risk.
+</p>
+</div>
+
+<div class="card">
+<h2>Changes to These Terms</h2>
+<p>
+These Terms of Service may be updated at any time without prior notice.
+</p>
+<p>
+Continued use of the application after updates constitutes acceptance of the revised terms.
+</p>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>
+For support, questions, or policy concerns:
+</p>
+<p>
+easygroupjoin@gmail.com
+</p>
+</div>
+
+<div class="footer">
+Smart Group Join
+</div>
+
+</body>
+</html>
