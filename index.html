@@ -42,19 +42,25 @@ which contain important information about group submissions, referrals, coins, f
 <div class="card">
 <h2>Data We Collect</h2>
 <ul>
-<li>A randomly generated device key to identify your group submissions</li>
-<li>Your approximate location such as country or city to tag group origins</li>
-<li>Interaction data such as likes, clicks, and views stored in Google Sheets</li>
-<li>Group submissions including link, name, description, image, and category</li>
+<li>A randomly generated UserKey / Recovery Key to identify your wallet, groups, referrals, and submissions</li>
+<li>Your approximate location such as country or city to tag group origins and support location-based search</li>
+<li>Interaction data such as likes, clicks, views, and group opens stored in Google Sheets</li>
+<li>Group submissions including link, name, description, image, platform, category, and approval status</li>
+<li>Referral activity, reward status, and coin balance information</li>
+<li>Daily Check-in status, streak count, and last check-in date</li>
+<li>Coin History records such as earned coins, spent coins, descriptions, and timestamps</li>
+<li>Link Health Check records such as last checked time, link status, issue reason, and failed check count</li>
+<li>Push notification token if notification permission is granted</li>
 </ul>
 </div>
 
 <div class="card">
 <h2>Data We Do Not Collect</h2>
 <ul>
-<li>No name, email, phone number, or personal identifiers</li>
-<li>No sign-in or account required</li>
+<li>No name, email, phone number, or personal identity is required to use the app</li>
+<li>No sign-in or account registration is required</li>
 <li>No tracking cookies</li>
+<li>No IMEI, MAC address, contacts, SMS, or private phone identifiers</li>
 </ul>
 </div>
 
@@ -68,6 +74,7 @@ Smart Group Join uses third-party services provided by Google and other provider
 <li>Google Play Services</li>
 <li>Google Sheets API</li>
 <li>Firebase Cloud Messaging for push notifications, if enabled</li>
+<li>Expo services for app build and push notification support</li>
 </ul>
 <p>These services may collect limited technical information as described in their own privacy policies.</p>
 <p><a href="https://policies.google.com/privacy">Google Privacy Policy</a></p>
@@ -94,36 +101,92 @@ Smart Group Join uses third-party services provided by Google and other provider
 <h2>How We Use Your Data</h2>
 <ul>
 <li>To display submitted groups to other users after admin approval</li>
-<li>To enable likes, views, and click counts for ranking</li>
-<li>To detect your location for local group tagging, if allowed</li>
-<li>To allow you to manage and delete your own submissions</li>
+<li>To enable likes, views, clicks, and ranking calculations</li>
+<li>To detect your approximate location for local group tagging, if allowed</li>
+<li>To allow users to manage, edit, and delete their own submissions</li>
+<li>To manage referral rewards, wallet coins, and featured promotions</li>
+<li>To help users restore their wallet, groups, referrals, and coin history using a Recovery Key</li>
+<li>To detect invalid, expired, broken, or inaccessible group links</li>
+<li>To send push notifications if permission is granted</li>
 </ul>
 </div>
 
 <div class="card">
 <h2>Referral Program</h2>
 <ul>
-<li>The app may generate a unique referral link linked to a device-generated UserKey</li>
-<li>Referral statistics, referral counts, and earned coins may be stored in Google Sheets</li>
+<li>The app may generate a unique referral link linked to a device-generated UserKey / Recovery Key</li>
+<li>Referral statistics, referral counts, reward status, and earned coins may be stored in Google Sheets</li>
 <li>Referral rewards are used only within the app</li>
+<li>Referral records may be used to prevent duplicate rewards, self-referrals, reinstall abuse, or fraudulent activity</li>
 </ul>
 </div>
 
 <div class="card">
 <h2>Coins & Rewards</h2>
 <ul>
-<li>Coins may be awarded through referral milestones</li>
+<li>Coins may be awarded through referral milestones, Daily Check-ins, admin gifts, and promotional rewards</li>
 <li>Coins can be redeemed to feature approved groups and channels</li>
 <li>Coin balances are stored in Google Sheets</li>
+<li>Coins are used only inside Smart Group Join and do not have cash value unless explicitly stated</li>
 </ul>
 </div>
 
 <div class="card">
 <h2>Community Ranking System</h2>
 <ul>
-<li>Anonymous engagement data such as views, likes, and link opens may be used to calculate group rankings</li>
+<li>Anonymous engagement data such as views, likes, clicks, group opens, and recent activity may be used to calculate group rankings</li>
 <li>Community activity may contribute to ranking scores</li>
-<li>No personal identity information is collected for ranking purposes</li>
+<li>No personal identity information is required for ranking purposes</li>
+<li>Ranking methods and scoring rules may change over time</li>
+</ul>
+</div>
+<div class="card">
+<h2>Daily Check-in & Wallet</h2>
+<ul>
+<li>Users may earn coins through Daily Check-in rewards.</li>
+<li>Daily Check-in rewards may vary based on country, region, streak, promotions, or platform rules.</li>
+<li>Coin balance, last check-in date, streak count, reward status, and wallet activity may be stored in Google Sheets.</li>
+<li>Coins are used only inside the app for rewards, wallet features, and featured promotions.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Recovery Key & Account Restore</h2>
+<ul>
+<li>The app may generate a Recovery Key linked to your anonymous UserKey.</li>
+<li>This Recovery Key helps restore wallet, coins, groups, referrals, and coin history after reinstalling the app or changing devices.</li>
+<li>Users are responsible for saving their Recovery Key safely.</li>
+<li>Recovery Key validation may use Google Sheets records such as Users, Groups, Coin History, or Referral records.</li>
+<li>A fake or unknown Recovery Key may be rejected if it does not exist in server-side records.</li>
+<li>Restoring an account does not create a new referral reward.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Coin History</h2>
+<ul>
+<li>The app may record coin transactions such as Daily Check-in rewards, Referral rewards, Admin gifts, and Featured promotion purchases.</li>
+<li>Coin History may include transaction type, coin amount, description, and date/time.</li>
+<li>This information is used for wallet tracking, reward verification, transparency, and user support.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Link Health Check</h2>
+<ul>
+<li>The app may periodically check submitted group and channel links to detect expired, invalid, broken, or inaccessible links.</li>
+<li>Link check status, last checked time, issue reason, and failed check count may be stored in Google Sheets.</li>
+<li>This information is used only to improve platform quality, identify broken links, and protect users from inactive listings.</li>
+<li>Links marked as invalid or expired may be hidden until updated and approved again.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Admin Gifts & Rewards</h2>
+<ul>
+<li>Administrators may send promotional coins or rewards to individual users, users from a selected country, or all users.</li>
+<li>Gifted coin records may be stored in Google Sheets and shown in Coin History.</li>
+<li>Gifted rewards may be used only within the app.</li>
 </ul>
 </div>
 
@@ -135,7 +198,10 @@ Smart Group Join uses third-party services provided by Google and other provider
 <li>Group rejections</li>
 <li>Featured groups</li>
 <li>Referral rewards</li>
+<li>Daily Check-in reminders</li>
 <li>Click milestones</li>
+<li>Link issues</li>
+<li>Important platform updates</li>
 </ul>
 <p>Users may disable notifications at any time through device settings or app settings.</p>
 </div>
@@ -145,6 +211,7 @@ Smart Group Join uses third-party services provided by Google and other provider
 <ul>
 <li>Users may spend earned coins to feature their approved groups</li>
 <li>Featured status may expire automatically after the selected promotion period</li>
+<li>Featured promotion records may be stored for wallet and coin history tracking</li>
 </ul>
 </div>
 
@@ -153,11 +220,16 @@ Smart Group Join uses third-party services provided by Google and other provider
 <p>The following app-related information may be stored in Google Sheets:</p>
 <ul>
 <li>Group submissions</li>
-<li>Likes, clicks, and views</li>
-<li>Referral counts</li>
+<li>Likes, clicks, views, and group opens</li>
+<li>Referral counts and referral reward status</li>
 <li>Coin balances</li>
+<li>Daily Check-in records</li>
+<li>Coin History records</li>
+<li>Recovery Key validation records</li>
 <li>Feature promotion status</li>
 <li>Notification records</li>
+<li>Link Health Check records</li>
+<li>Admin gift records</li>
 </ul>
 <p>No personal information such as name, email address, or phone number is required to use the app.</p>
 </div>
@@ -165,7 +237,10 @@ Smart Group Join uses third-party services provided by Google and other provider
 <div class="card">
 <h2>Data Storage</h2>
 <p>
-All data is stored in Google Sheets hosted on Google's infrastructure. No custom server database is used. Google's standard data protection applies.
+App data is stored in Google Sheets hosted on Google's infrastructure. Some technical data may also be stored locally on your device using app storage to keep your UserKey / Recovery Key, wallet access, and app preferences.
+</p>
+<p>
+Android backup services may restore some local app data after reinstall if device backup is enabled. This behavior depends on user device settings, Google account backup settings, and Android system support.
 </p>
 </div>
 
@@ -173,9 +248,12 @@ All data is stored in Google Sheets hosted on Google's infrastructure. No custom
 <h2>Data Deletion</h2>
 <p>You may request deletion of your submitted groups at any time:</p>
 <ul>
-<li>Delete from the My Groups tab in the app</li>
+<li>Delete from the My Groups tab in the app, if available</li>
 <li>Or contact us at easygroupjoin@gmail.com</li>
 </ul>
+<p>
+Some records such as reward history, abuse prevention records, and transaction logs may be retained when necessary to prevent fraud, duplicate rewards, or system abuse.
+</p>
 </div>
 
 <div class="card">
@@ -203,4 +281,4 @@ Smart Group Join
 </div>
 
 </body>
-</html>
+  </html>
